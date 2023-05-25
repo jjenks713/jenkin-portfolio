@@ -5,8 +5,7 @@ import { getAllJsApps } from '../lib/api';
 
 export default function Javascript({ preview, allJsApps }) {
 
-  const jsApps = allJsApps.data.jsAppsCollection.items
-
+  const jsApps = allJsApps.data.jsAppsList.jsApps2Collection.items
 
   return (
     <div className='bg-gray-600 flex flex-wrap justify-center sm:p-44'>

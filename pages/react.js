@@ -5,8 +5,7 @@ import { getAllReactApps } from '../lib/api';
 
 export default function Javascript({ preview, allReactApps }) {
 
-  const reactApps = allReactApps.data.reactAppsCollection.items
-  //testing
+  const reactApps = allReactApps.data.reactAppsList.reactAppsCollection.items
 
   return (
     <div className="w-full bg-gray-600 flex flex-wrap justify-center sm:p-44">
